@@ -1,0 +1,3 @@
+add_subdirectory(det_id_analytics)
+add_subdirectory(det_id_nutch2)
+add_subdirectory(gen_mod_idioma)

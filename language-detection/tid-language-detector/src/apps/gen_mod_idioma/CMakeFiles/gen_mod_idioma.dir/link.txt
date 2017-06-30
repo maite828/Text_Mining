@@ -1,0 +1,1 @@
+/usr/bin/c++   -g -Wno-unknown-pragmas -D_LARGEFILE64_SOURCE -D_GNU_SOURCE -Wno-deprecated     CMakeFiles/gen_mod_idioma.dir/gen_mod_idioma.cpp.o  -o gen_mod_idioma -rdynamic ../../libs/det_id/libdet_id.so -Wl,-rpath,/home/goyo/DetectorIdioma/src/libs/det_id: 

@@ -1,0 +1,7 @@
+En este directorio se ha generado el modelo de bigramas para
+el brasileño. Para ello empleamos el script 
+
+entrena_Bigramas_bra 
+
+que se encarga de entrenar el modelo de bigramas con todo
+el texto en brasileño que tenemos.

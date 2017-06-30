@@ -1,0 +1,9 @@
+En este directorio se obtiene la lista de palabras utilizadas
+para el entrenamiento del modelo de bigramas, junto con sus 
+frecuencias de aparición.
+
+Esta lista de palabras puede ser útil a la hora de filtrar el 
+diccionario.
+
+
+

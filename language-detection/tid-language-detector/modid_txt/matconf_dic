@@ -1,0 +1,26 @@
+#####################################################################
+# USANDO: DETECTOR_ID = /home/usu/herr_proc_texto/detector_id/det_id0500.pj #
+#####################################################################
+
+MATRIZ DE CONFUSIÓN DE LOS MODELOS DE DICCIONARIO
+--------|--------------------
+  i,j   | Matriz {P(i|mod_j)}
+--------|--------------------
+FILA de matconf_dic = ''
+  cas   | 
+FILA de matconf_dic = ''
+  cat   | 
+FILA de matconf_dic = ''
+  gal   | 
+FILA de matconf_dic = ''
+  eus   | 
+FILA de matconf_dic = ''
+  ing   | 
+FILA de matconf_dic = ''
+  fra   | 
+FILA de matconf_dic = ''
+  ale   | 
+FILA de matconf_dic = ''
+  bra   | 
+FILA de matconf_dic = ''
+  ita   | 

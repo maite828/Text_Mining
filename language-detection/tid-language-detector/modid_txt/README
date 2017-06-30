@@ -1,0 +1,71 @@
+En este directorio están los scripts para generar y comprobar los
+modelos de idioma, así como los datos (E-MAILS) para comprobar el
+funcionamiento de los modelos de idioma.
+
+Para el funcionamiento de los scripts que se encuentran en este 
+directorio se debe poner la variable 
+
+DETECTOR_ID a "/home/usu/i3s/LECTURA_MAIL/detector_id/V1.0
+
+Organización del directorio.
+
+Bajo cada uno de los directorios de cada idioma (IDI=cas,cat,gal,eus,
+ing,fra,ale,bra) hay un directorio big en el que se entrena el 
+modelo de bigramas y otro dic en el que se entrena el diccionario
+con frecuencias. 
+
+El directorio "IDI/big" contiene:
+
+ - fichero textos_train con los ficheros de texto (con path) que
+   se emplean para el entrenamiento. Esos ficheros deben contener
+   al menos 6 MB de texto en el idioma considerado, aunque pueden
+   tener más.
+
+ - fichero textos_test con los ficheros de texto (con path) que se
+   emplean para obtener las matrices de confusión entre modelos de
+   bigramas. Deben contener 1 MB de texto.
+
+ - README - Pues un README
+
+ - big_IDI - Modelo de bigramas en formato textual generado a partir
+   de los textos de textos_train. 
+
+El directorio "IDI/dic" contiene:
+ 
+ - textos_train. Lista de ficheros de entrenamiento (con path). Deben
+   contener alrededor de 6 MB de texto. Es contraproducente que 
+   contengan más o menos texto.
+ 
+ - textos_test. Lista de ficheros (con path) para obtener la matriz 
+   de confusión de los modelos de diccionario. Deben contener 1 MB 
+   de texto.
+
+ - palabras_excluidas. Lista de palabras que se deben excluir del 
+   diccionario de este idioma, a pesar de que aparezcan en los textos
+   de entrenamiento.
+
+ - dic_IDI. Diccionario con número de apariciones en los textos de 
+   entrenamiento. Generado a partir de los textos_train. 
+
+ - estadisticas. Fichero con ciertas estadísticas sobre el proceso de
+   generación del dic_IDI
+
+ - README - Pues un readme.
+
+El directorio "scripts" contiene los siguientes scripts para GENERAR
+los modelos de idioma.
+
+genera_todo - Genera todos los modelos de idioma
+genera IDI  - Genera el modelo de idioma del idioma IDI
+genera_big IDI - Genera el modelo de bigramas en ASCII para un idioma
+genera_dic IDI - Genera el diccionario con frec en ASCII para un idioma
+genera_matconf - Genera las matrices de confusión de bigramas y diccionario
+genera_matconf_dic - Genera la matriz de confusión de diccionarios
+genera_matconf_big - Genera la matriz de confusión de bigramas
+limpia_todo - Borra todos los ficheros generados por cualquiera de los scripts
+              anteriores.
+
+genera_pares_cod_idi - Genera los pares Código de idioma
+
+
+ 

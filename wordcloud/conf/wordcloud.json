@@ -1,0 +1,30 @@
+{
+	"input":
+	{
+		"title": "ANALYSIS ON COMPANIES",
+		"subtitle": "AROUND THE WORLD",
+		"number":2,
+		"path": "/Users/zoraida/Analytics/data/",
+		"files":["tweets_wordcloud_vod.20000",
+            "tweets_wordcloud.20000"],
+		"names":["Movistar",			
+			"Vodafone"] 
+	},
+	"layout":
+	{
+		"palette_ind":"BrBG",
+		"palette_comp":"Dark2",
+		"palette_all":"RdYlBu",
+		"bg_colour":"black", 
+		"tx_colour":"white",
+		"ti_colour":"gold1", 
+		"report_title": "NUMBER OF TWEETS PER TOPIC",
+		"text_title": "Topic: ",
+		"text_date": "10 April 2013"
+	},
+	"output":
+	{
+		"name":"/Users/zoraida/Analytics/analytics-text-mining/target/wordcloud.pdf"
+	}
+}
+

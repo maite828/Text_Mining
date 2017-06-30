@@ -1,0 +1,4 @@
+En este directorio contiene los datos para generar el modelo de bigramas del euskera.
+Ficheros de datos.
+ - mas_todo_vasco.ami.1  Los primeros 6 MB de /home/usu/texto/vasco/mas_todo_vasco.ami
+ - mas_todo_vasco.ami.2 El ultimo MB de /home/usu/texto/vasco/mas_todo_vasco.ami

@@ -1,0 +1,4 @@
+/home/goyo/DetectorIdioma/src/libs/det_id/CMakeFiles/det_id.dir
+/home/goyo/DetectorIdioma/src/apps/det_id_analytics/CMakeFiles/det_id_analytics.dir
+/home/goyo/DetectorIdioma/src/apps/det_id_nutch2/CMakeFiles/det_id_nutch2.dir
+/home/goyo/DetectorIdioma/src/apps/gen_mod_idioma/CMakeFiles/gen_mod_idioma.dir

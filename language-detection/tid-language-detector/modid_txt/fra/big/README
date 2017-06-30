@@ -1,0 +1,10 @@
+En este directorio se ha generado el modelo de bigramas para
+el detector de idioma V1.0. 
+
+Para ello se ha usado el script
+
+entrena_bigramas_ing
+
+El texto que se ha usado consiste en libros en inglés traídos de
+internet. Están en el directorio /home/usu/texto/ingles, y una lista
+de los mismos es lista_textos.

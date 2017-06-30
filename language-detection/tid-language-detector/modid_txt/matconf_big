@@ -1,0 +1,17 @@
+#####################################################################
+# USANDO: DETECTOR_ID = /home/usu/herr_proc_texto/detector_id/det_id0500.pj #
+#####################################################################
+
+MATRIZ DE CONFUSIÓN DE LOS MODELOS DE BIGRAMAS
+--------|--------------------
+  i,j   | Matriz {P(i|mod_j)}
+--------|--------------------
+  cas   | 
+  cat   | 
+  gal   | 
+  eus   | 
+  ing   | 
+  fra   | 
+  ale   | 
+  bra   | 
+  ita   | 

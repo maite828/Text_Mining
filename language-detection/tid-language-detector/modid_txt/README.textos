@@ -1,0 +1,22 @@
+ORIGEN DE LOS TEXTOS EMPLEADOS PARA EL DETECTOR TEXTUAL DE IDIOMA
+=================================================================
+
+El origen de los textos empleados para entrenar los modelos del 
+detector textual de idioma es muy variado, como lo exigía la 
+premura en la obtención de resultados. 
+
+Básicamente se han reutilizado los textos del directorio de 
+textos del grupo de conversión texto-voz (/home/usu/texto) para 
+los idiomas castellano, catalán, gallego y vasco.
+
+Para los idiomas inglés, francés y alemán se ha obtenido el texto
+necesario básicamente a partir de libros en formato electrónico
+y algún periódico como "Le Monde" en el caso del francés. Estos 
+textos se han dejado en el mismo sitio que los textos del grupo
+de conversión texto-voz (/home/usu/texto)
+
+Para el idioma brasileño se ha empleado el texto obtenido por 
+Paloma y que está en /home/usu/analisis_bd/ANALISIS/brasil/sinsd/macrotexto.
+En esa zona hay más ficheros de texto que pueden ser utilizados más 
+adelante...
+

@@ -1,0 +1,12 @@
+En este directorio se ha generado el modelo de bigramas para
+el catalán. Para ello empleamos el script 
+
+entrena_Bigramas_cat 
+
+que se encarga de inicializar un modelo de bigramas y a
+continuación reestimarlo con una lista enorme de ficheros
+en catalán. En concreto la lista de ficheros en 
+castellano es la formada por una serie de ficheros de
+texto del diario Avui y de varios otros sitios de Internet.
+
+

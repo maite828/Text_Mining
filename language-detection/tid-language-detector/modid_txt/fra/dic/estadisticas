@@ -1,0 +1,6 @@
+Palabras entrenamiento (contando repetidas)           :  917972 lispal_sinfrec
+Número de palabras comunes a excluir                  :  74 /home/usu/herr_proc_texto/detector_id/det_id0500.pj/modid_txt/palabras_excluidas
+Número de palabras particulares a excluir             :  1 palabras_excluidas
+Número de palabras sin las comunes a excluir          :  916833 lispal_sinfrec_sincomunes
+Número de palabras sin las particulares a excluir     :  916833 lispal_sinfrec_sincomunes_sinparticulares
+Número de palabras del diccionario (sin repeticiones) :  48725 dic_fra

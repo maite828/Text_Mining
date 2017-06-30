@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/goyo/DetectorIdioma/src/apps/det_id_analytics/../../libs/hdrs/detector_id.h
+
+/home/goyo/DetectorIdioma/src/apps/det_id_analytics/det_id_analytics.cpp
+stdio.h
+-
+string.h
+-
+sys/mman.h
+-
+unistd.h
+-
+sys/types.h
+-
+sys/stat.h
+-
+stdlib.h
+-
+errno.h
+-
+fcntl.h
+-
+../../libs/hdrs/detector_id.h
+/home/goyo/DetectorIdioma/src/apps/det_id_analytics/../../libs/hdrs/detector_id.h
+

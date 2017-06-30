@@ -1,0 +1,7 @@
+#!/opt/bin/tcsh
+
+foreach i (`cat $1`)
+echo -n $i ":"
+../../../bin/test_Detector_id $i CASTELLANO ../../bin/mod_cas CATALAN ../../bin/mod_cat GALLEGO ../../bin/mod_gal EUSKERA ../../bin/mod_eus INGLES ../../bin/mod_ing FRANCES ../../bin/mod_fra ALEMAN ../../bin/mod_ale BRASILEÑO ../../bin/mod_bra  
+end
+

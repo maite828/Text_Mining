@@ -1,0 +1,10 @@
+numpy
+scipy
+pandas
+scikit-learn
+configargparse
+ipython==4.0.0
+networkx
+nltk
+matplotlib
+jupyter

@@ -1,0 +1,9 @@
+../bin/gen_mod_idioma cas ../modid_txt/cas/dic/dic_cas ../modid_txt/cas/big/big_cas ../modid_bin/mod_cas
+../bin/gen_mod_idioma cat ../modid_txt/cat/dic/dic_cat ../modid_txt/cat/big/big_cat ../modid_bin/mod_cat
+../bin/gen_mod_idioma eus ../modid_txt/eus/dic/dic_eus ../modid_txt/eus/big/big_eus ../modid_bin/mod_eus
+../bin/gen_mod_idioma gal ../modid_txt/gal/dic/dic_gal ../modid_txt/gal/big/big_gal ../modid_bin/mod_gal
+../bin/gen_mod_idioma bra ../modid_txt/bra/dic/dic_bra ../modid_txt/bra/big/big_bra ../modid_bin/mod_bra
+../bin/gen_mod_idioma ale ../modid_txt/ale/dic/dic_ale ../modid_txt/ale/big/big_ale ../modid_bin/mod_ale
+../bin/gen_mod_idioma fra ../modid_txt/fra/dic/dic_fra ../modid_txt/fra/big/big_fra ../modid_bin/mod_fra
+../bin/gen_mod_idioma ita ../modid_txt/ita/dic/dic_ita ../modid_txt/ita/big/big_ita ../modid_bin/mod_ita
+../bin/gen_mod_idioma ing ../modid_txt/ing/dic/dic_ing ../modid_txt/ing/big/big_ing ../modid_bin/mod_ing

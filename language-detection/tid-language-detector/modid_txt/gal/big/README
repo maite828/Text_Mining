@@ -1,0 +1,12 @@
+En este directorio se ha generado el modelo de bigramas para
+el gallego. Para ello empleamos el script 
+
+entrena_Bigramas_gal 
+
+que se encarga de inicializar un modelo de bigramas y a
+continuación reestimarlo con una lista enorme de ficheros
+en gallego. Bueno, la lista no es tan enorme, sólo 2
+ficheros que contienen unos 6 megas de texto... Poco, pero
+esperemos que suficiente.
+
+

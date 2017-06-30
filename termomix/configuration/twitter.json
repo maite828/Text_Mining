@@ -1,0 +1,22 @@
+{
+"data_path":"/Users/zoraida/Analytics/data/general-tweets-train-tagged.json",
+"encoding":"UTF-8",
+"score_funcs":[{"class_name":"sklearn.feature_selection.chi2"},
+              {"class_name":"sklearn.feature_selection.f_classif"}],
+"classifiers":[{"class_name":"sklearn.multiclass.OneVsRestClassifier",
+                "sub_clf":{"class_name":"sklearn.svm.LinearSVC",
+                            "params":{"C":1.0, "dual":true, "fit_intercept":true,
+                                      "intercept_scaling":1, "loss":"l2", "multi_class":"ovr", "penalty":"l2",
+                                      "random_state":0, "tol":0.0001, "verbose":0
+                                      }
+                          }
+                },
+                {"class_name":"sklearn.multiclass.OneVsRestClassifier",
+                "sub_clf":{"class_name":"sklearn.linear_model.LogisticRegression"
+                          }
+                }
+               ],
+"num_attr":[1000, 1250, 1100, 750],
+"num_folds":2
+}
+
